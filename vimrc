@@ -8,7 +8,6 @@ set tabstop=4
 set shiftwidth=4
 set tabstop=4
 set smarttab
-set expandtab
-set autoindent
-set fileformat=unix
-set laststatus=2
+set encoding=utf-8
+set noswapfile
+set mouse=a
