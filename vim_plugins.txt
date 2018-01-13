@@ -1,7 +1,8 @@
-install pathogen:
+#install pathogen
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim\n
 
+#git clone in ~/.vim/bundle:
 
 https://github.com/jiangmiao/auto-pairs.git
 https://github.com/hashivim/vim-terraform.git
