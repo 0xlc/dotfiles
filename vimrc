@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax enable
 set number
 filetype plugin indent on
