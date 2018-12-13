@@ -15,7 +15,7 @@ fi
 
 local ret_status="%(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜%s)"
 PROMPT='
-%{$hotpink%}%B%n %{$reset_color%}%{$orange%}%Bλ %{$reset_color%}%{$fg_bold[blue]%}${PWD/#$HOME/~} %{$reset_color%}%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}
+%{$hotpink%}%B%n %{$reset_color%}%{$orange%}%Bλ %{$reset_color%}%{$hotpink%}%B%T%  %{$fg_bold[blue]%}${PWD/#$HOME/~} %{$reset_color%}%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}
 ${ret_status}%{$reset_color%} '
 
 PROMPT2="%{$fg_bold[black]%}%_> %{$reset_color%}"
